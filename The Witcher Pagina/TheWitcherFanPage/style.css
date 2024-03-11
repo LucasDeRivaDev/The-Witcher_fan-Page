@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'MedievalSharp';
+    color: #fff;
+}
+
+body{
+    background-image: url(./image/Fondothewitcher.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-position: center center;
+}
+
+header nav img{
+    width: 500px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+.lista-nav li{
+    display: inline-block;
+    padding: 0px 20px;
+    padding-top: 0%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgb(232, 232, 79);
+}
+div .lista-consejos{
+    padding-left: 15px;
+}
+
+p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'MedievalSharp';
+    color: #fff;
+}
+
+body{
+    background-image: url(./image/the-witcher-3-wallpaper-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-position: center center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: bold;
+    position: fixed;
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100%;
+    border-left: 5000px;
+}
+
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 15px;    
+    padding-bottom: 0px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li a{
+    display: block;
+    color: #fff;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;   
+}
+li a:hover{
+    color: rgba(232, 232, 79);
+}
+
+a:hover{
+    color: rgba(232, 232, 79);
+}
+header img{
+    width: 500px;
+    padding-top: 20px;
+}
